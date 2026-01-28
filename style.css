@@ -72,9 +72,16 @@ img{ max-width: 100%; display:block; }
   padding: 16px 0;
 }
 .brand__logo{
-  height: 44px;
+  height: 65px;          /* Bigger logo */
   width: auto;
+  display: block;
+  object-fit: contain;   /* Prevent cropping */
 }
+.brand{
+  display: flex;
+  align-items: center;
+}
+
 
 .nav{
   display:flex;
