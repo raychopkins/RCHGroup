@@ -81,6 +81,25 @@ img{ max-width: 100%; display:block; }
   display: flex;
   align-items: center;
 }
+.topbar__inner{
+  padding: 10px 0 !important;
+  align-items: center !important;
+}
+
+.topbar{
+  overflow: visible !important;
+}
+
+.brand{
+  display: flex;
+  align-items: center;
+}
+
+.brand__logo{
+  height: 72px !important;
+  width: auto !important;
+  object-fit: contain;
+}
 
 
 .nav{
