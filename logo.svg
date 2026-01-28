@@ -1,45 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="560" height="150" viewBox="0 0 560 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RCH Group Property & Rentals logo">
-  <defs>
-    <style>
-      .wordmark { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="150" viewBox="0 0 560 150" aria-label="RCH Group Property and Rentals logo" role="img">
+  <rect width="560" height="150" fill="none"/>
 
-  <!-- Transparent background -->
-  <rect width="100%" height="100%" fill="none"/>
-
-  <!-- Icon (house + monogram + base line) -->
+  <!-- Icon -->
   <g transform="translate(22,18)">
     <!-- Base swoosh -->
     <path d="M6 106 C34 118, 78 121, 122 111"
           fill="none" stroke="#1c7f4d" stroke-width="7" stroke-linecap="round"/>
 
-    <!-- House outline -->
+    <!-- Roof -->
     <path d="M18 55 L68 18 L118 55"
-          fill="none" stroke="#1c7f4d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M32 54 V104 H104 V54"
-          fill="none" stroke="#1c7f4d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          fill="none" stroke="#1c7f4d" stroke-width="7"
+          stroke-linecap="round" stroke-linejoin="round"/>
 
-    <!-- Door (filled for a more premium look) -->
+    <!-- House -->
+    <path d="M32 54 V104 H104 V54"
+          fill="none" stroke="#1c7f4d" stroke-width="7"
+          stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Door -->
     <path d="M74 104 V78 C74 73 70 69 65 69 C60 69 56 73 56 78 V104"
           fill="#1c7f4d"/>
 
     <!-- Window -->
-    <rect x="40" y="66" width="16" height="16" rx="3" fill="none" stroke="#1c7f4d" stroke-width="5"/>
+    <rect x="40" y="66" width="16" height="16" rx="3"
+          fill="none" stroke="#1c7f4d" stroke-width="5"/>
 
-    <!-- Subtle inner roof line (adds depth) -->
+    <!-- Inner roof line -->
     <path d="M34 55 L68 30 L102 55"
-          fill="none" stroke="#1c7f4d" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+          fill="none" stroke="#1c7f4d" stroke-width="4"
+          stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
   </g>
 
-  <!-- Wordmark -->
-  <g class="wordmark" transform="translate(170,54)">
-    <text x="0" y="0" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="0.2">
-      RCH Group
-    </text>
-    <text x="0" y="34" font-size="22" font-weight="650" fill="#1c7f4d" letter-spacing="0.2">
-      Property &amp; Rentals
-    </text>
-  </g>
+  <!-- Text -->
+  <text x="170" y="78"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="44" font-weight="800"
+        fill="#ffffff">
+    RCH Group
+  </text>
+
+  <text x="170" y="112"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="22" font-weight="700"
+        fill="#1c7f4d">
+    Property &amp; Rentals
+  </text>
 </svg>
